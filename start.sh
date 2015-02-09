@@ -1,6 +1,3 @@
 #! /bin/sh
 
-/usr/bin/sabnzbdplus --daemon --config-file /config --server :8080
-sleep 5
-
-tail -f /config/logs/sabnzbd.*
+/usr/bin/sabnzbdplus --config-file /config --logging 0 --server :8080

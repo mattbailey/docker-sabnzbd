@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM debian:latest
 MAINTAINER Matt Bailey <m@mdb.io>
 
 # To get rid of error messages like "debconf: unable to initialize frontend: Dialog":

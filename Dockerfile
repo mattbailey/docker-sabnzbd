@@ -9,7 +9,6 @@ RUN echo "deb http://http.debian.net/debian wheezy non-free" | tee -a /etc/apt/s
 
 RUN apt-get -q update && \
     apt-get install -qy --force-yes sabnzbdplus \
-    sabnzbdplus-theme-classic sabnzbdplus-theme-mobile sabnzbdplus-theme-plush \
     par2 python-yenc unzip unrar
 
 # apt clean
